@@ -1,0 +1,92 @@
+- előző napokban mit csinált (5 nap mondjuk) ünnepnap/ünnepszezon4, milyen hónap van
+- alanyi jogú hely
+- beosztás
+- előzőekben milyen arányban használta a parkolót ha volt/nem volt lehetősége
+...- előzőekben milyen arányban adta fel a helyét
+/- mikor született -> azóta eltelt idő
+
+- teljes belépőrendszernél, hogy mivel megy be
+
+-főnöknek, kollégáknak nagy segítség lehet
+-úgy építettük meg, hogy teljes belépőrendszerre is könnyen integrálható legyen
+
+
+- bejelentkezés
+- főképernyő
+    - saját adataid: név, heti parkolóhelyek (+a következő heti)
+    - jelenlegi parkolóhely statisztikák (+egy gráfon a  várható statisztikák)
+    - adott napokra lehetőség helyet foglalni
+    - lehetőség átadni a helyedet
+- napfoglaló
+    - !nap
+    - a parkolóval rendelkezőknek minden nap !
+    - kilistázva 2 hétre statisztikákkal, szép színekkel
+    - visszavonás
+- helyátadó
+    - free for all-ba vagy adott személynek
+    - a személyek listája ajánlható (eddig kik voltak, kiknek kell a legjobban)
+    - visszavonás
+
+- ajánlások
+
+- notification
+    - be fog menni? + válasz
+    - van parkolóhely!???
+
+
+- supervisor panel
+- 3 hónapos session
+
+
+
+k&h parkolos cucc strukturalatlan gondolatok, lehet fele mar invalid de tessek
+lehetne olyan, hogy naptarba ha be van irva a home office azt automatikusan felismeri
+
+geolocation alapjan, ha nem indul el otthonrol akkor nem is lesz ott (ha van aznap valami)
+
+ha valaki elindul, kuldhet egy requestet, ami eljut <extra szures igenyelt> valakikhez, akik visszajelezhetik, hogy aha, parkolj oda nyugodtan, es akkor oket be is jeloli home officera
+
+
+ha valakinek korabban / kesobb van dolga, azt hogyan
+ha valaki odaert, es lecsippantotta, azzal legyen bejelolve, de az lehet keso
+
+osztonzesi otlet: ha valaki reszt vesz ebben, konnyebben kap helyet, kap ilyen pontfelesegeket, amik utana a felajanlasi algoritmusban elonyt jelentenek (meg az is, ha ritkan vagy, vagy eloszor, hogy jo tapasztalatod legyen)
+
+
+
+
+alanyi elobb indul -> beirja a rendszer
+alanyi kesobb indul -> meghiusulna a hely, erre kell megoldas, ha valaki hamarabb indul mint o, vagy ha lathatoan kesobb indul, akkor rakerdez nala
+alanyi nem indul -> rakerdez, ugyanaz mint kesobb indulos esetben
+
+adat arrol hogy ott van-e, kontrasztban azzal hogy mit irt be a rendszerbe, szavanak megbizhatosagat fel lehet ebbol merni
+
+hany embernek kell parkolohely ertesitesben
+ev vegen visszajelzes nekik
+
+aki bejar de nem parkol, az prioritast kapjon ha ker helyet
+
+kiterjeszthetoseg: home office jegyzese, kaja dolog? Juli egy otletet megcsinalni, hogy milyen lehetne
+
+mi nem vezetunk be extra korlatozast, csak extra elonyoket
+
+a regi app modernizacioja, arra epitettuk, ha egy gomb valahol volt, akkor ott is lesz, ezzel biztositva az atallas konnyedseget minden dolgozonak
+
+szemelyre szabas: opciok nem alanyinal, hogy mennyire akarsz helyet, aznap reggel is szolhasson, egyebek
+-> figyelembe vettuk a foldrajzi adottsagokat
+
+rendszam alapjan embernek autoorszem notifot tudj kuldeni, hogy fel van kapcsolva a lampaja meg egyebek vagy ertesites hogy rossz helyre alltal, bizonyithatod az appal es konfliktusokat egyertelmuen megoldja, beallhatsz az o helyere, ez ertesites, log, minusz pont az algoba
+eddig is fennallo problema, mi adunk erre egy megoldast
+miert lesz ez neked jo, hogy ezt hasznalod
+
+stats a cegnek -> hany embernek volt, hanynak nem a napok folyaman, meg csomo data az apin keresztul
+
+ai estimate in percentage to tell users what percentage chance they have for a parking spot
+
+“okos ertesitesek”
+
+statisztika arrol, hogy mennyi idot tolt egy user egy pagen
+minden heten egy nap priority day, nagyobb esellyel bekerulsz
+hany napja, priority ez alapjan is
+
+historical parkolasi hely data alapjan hasonlo helyre tesz, ismeros melle, vagy a legkevesebb embert befolyasolo helyre ha mindegy
