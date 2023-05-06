@@ -10,7 +10,7 @@ import { AuthModule } from "./auth/auth.module";
     AuthModule,
     EmployeeModule,
     MongooseModule.forRoot(
-      "mongodb+srv://freundl0509:HlU5wa4YT08Z5VFe@parkingapp.avuc3er.mongodb.net/?retryWrites=true&w=majority",
+      "mongodb+srv://freundl0509:SECRET@parkingapp.avuc3er.mongodb.net/?retryWrites=true&w=majority",
     ),
     ScheduleModule,
     ControllerModule,
