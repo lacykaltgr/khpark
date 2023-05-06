@@ -15,7 +15,7 @@ async function bootstrap() {
       saveUninitialized: false,
       cookie: { maxAge: 1000*60*60},
       store: MongoStore.create({
-        mongoUrl: "mongodb+srv://freundl0509:HlU5wa4YT08Z5VFe@parkingapp.avuc3er.mongodb.net/?retryWrites=true&w=majority",
+        mongoUrl: "mongodb+srv://freundl0509:SECRET@parkingapp.avuc3er.mongodb.net/?retryWrites=true&w=majority",
       }),
       //secure: true  - https kell hozzá
     })
